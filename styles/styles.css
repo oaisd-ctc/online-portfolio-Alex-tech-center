@@ -1,0 +1,372 @@
+body {
+    background-color: rgb(81, 134, 194);
+    margin: 0;
+}
+
+div {
+
+    font-size: 19px;
+    color: black;
+}
+
+#heading {
+    color: white;
+    display: flex;
+    background-color: #07a6d6;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+
+}
+
+.box {
+
+    width: 70vw;
+    margin: 50px;
+    height: 90px;
+    background-color: #0dafe0;
+    text-align: center;
+    
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+   
+}
+
+
+main>div {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav>div>p{
+
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+}
+
+#timeline>div>div {
+
+    border-radius: 8px;
+}
+
+#overview {
+
+    background-color: rgb(24, 135, 187);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+#timeline {
+flex-direction: column; 
+width: 100%;
+background-color: white;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#overview>div {
+    width: 1000px;
+}
+
+header {
+    font-size: 2.5rem;
+}
+
+nav>div {
+    color: white;
+    margin-left: 5px;
+}
+
+nav>div:hover {
+    background-color: rgb(5, 232, 248);
+    transition: .3s;
+    border-radius: 6px;
+}
+
+.box:hover {
+
+    background-color: #2f3cf8;
+    transition: .5s;
+    color: white;
+}
+
+#iconic {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 25px;
+    flex-direction: column;
+    
+}
+
+#iconic>div {
+    color: rgb(8, 38, 119);
+    font-size: 26px;
+    
+}
+
+#iconic>div>div {
+    display: flex;
+    justify-content: center;
+}
+
+#Certifications {
+
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#gamerow {
+
+display: flex;
+flex-direction: row;
+justify-content: space;
+flex-wrap: wrap;
+
+
+
+}
+
+#gamerow > div > h4 {
+    color: white;
+letter-spacing: 3px
+}
+
+
+
+.box2 {
+height: 500px;
+width: 250px;
+background-color: #10b3db;
+border-radius: 8px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+display: grid;
+text-align: center;
+
+
+}
+
+
+.box2:hover {
+background-color: #016cd1;
+transition: .3s;
+color: white;
+
+}
+
+#cultural {
+
+justify-content: center;
+
+
+
+}
+
+
+.box2 > div {
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.box2 > div > img {
+
+border-radius: 8px;
+border: solid 2px white;
+
+
+
+}
+
+.box3 {
+height: 240px;
+width: 250px;
+background-color: #10b3db;
+border-radius: 8px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+display: grid;
+text-align: center;
+
+
+}
+
+
+.box3:hover {
+background-color: #016cd1;
+transition: .3s;
+color: white;
+
+}
+
+.aboutme {
+
+justify-content: center;
+
+
+
+}
+
+
+.box3 > div {
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.box3 > div > img {
+
+border-radius: 8px;
+border: solid 2px white;
+
+
+
+}
+
+h1 {
+
+color: rgb(151, 214, 243);
+
+}
+
+
+h2 {
+
+color: rgb(118, 184, 214);
+
+}
+
+
+
+h3 {
+
+color: white;
+letter-spacing: 2px;
+
+}
+
+
+h5 {
+
+color: rgb(117, 221, 235);
+font-size: 34px;
+
+margin: 0;
+
+}
+
+p {
+font-size: 18px;
+color: 333;
+
+}
+
+
+
+
+
+.aboutme > div {
+
+width: 1000px;
+
+
+}
+
+
+
+.aboutme {
+
+    background-color: white;
+
+}
+
+
+
+footer {
+
+
+text-align: center;
+justify-content: center;
+height: 50px;
+font-size: 20px;
+color: rgb(235, 248, 250);
+background-color: #00aef3
+}
+
+
+
+@media only screen and (max-width:800px) {
+    #heading {
+       flex-direction: column;
+       height: 200px;
+    }
+.main {
+padding: 0;
+}
+.box {
+
+    /* width: 80vw; */
+    margin: 60px;
+    height: 120px;
+    background-color: #4aba91;
+    text-align: center;
+
+}
+.box2 {
+    height: 700px;
+        background-color: #00eeff;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+    #heading {
+        flex-direction: column;
+        height: 250px;
+     }
+.menu, .main, .right {
+width: 100%;
+}
+.box {
+
+  
+    margin: 50px;
+    height: 160px;
+    background-color: #00c1fc;
+    text-align: center;
+
+}
+.box2 {
+    height: 500px;
+        background-color: #00c0fa;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+}
+
